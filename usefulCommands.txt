@@ -1,0 +1,40 @@
+jobs - wyswietla joby z danej konsoli
+
+fg
+bg %2 - wyslij drugi job w background
+
+
+tailf
+
+std input, std out, std err -> oznaczane numerami 0, 1,2
+
+redirect
+find / -name foo 2>&1  # przekazanie error na std output
+
+ctrl-D - znak konca pliku
+
+nohup - wykonywanie programow, ktore sa odpinane od terminala
+nohup sleep 100 > output &
+
+
+
+zmienna
+$PS1 - prompt specyfication -> to co sie wyswietla przy sciezce z konsoli
+
+w bashu mozna uzywac kolorow
+
+which progName - wypisuje ktorego konkretnego uzywasz
+
+/etc/bash_completion.d - tam sa skrypty, ktore definiuja dzialanie tab - completions
+przyklad napisania takiej funkcji jest w prezentacji Andrzeja
+
+
+liczba parametrow przekazanych do skryptu
+$#
+
+w bash sa "lazy if" jezeli wchodzi do kolejnych, jezeli musi
+
+
+cos tam... | vim -  <- output przechodzi do vim jako plik tekstowy
+
+!! -> pozwala na wywolanie komeny z bash w vim
